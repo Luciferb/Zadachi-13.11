@@ -1,0 +1,17 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+string duma;
+cout<<"Vuvedete nqkoq duma."<<endl;
+cin>>duma;
+int dumaLen=strlen(duma.c_str());
+cout<<"Dumata naobratno e ";
+for (int i=dumaLen;i>=0;--i)
+{
+cout<<duma[i];
+}
+system("pause>nul");
+return 0;
+}
